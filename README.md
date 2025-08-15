@@ -11,10 +11,10 @@ This is my dev setup. I code every day on this. Used to use Windows + WSL. Now I
 <p align="center"><i>Clean and minimal KDE desktop - fast and responsive</i></p>
 
 ![Development Environment Setup](./assets/2.png)
-<p align="center"><i>VS Code with integrated terminal - where the magic happens</i></p>
+<p align="center"><i>Konsole terminal - where the magic happens</i></p>
 
 ![System Resource Monitor](./assets/3.png)
-<p align="center"><i>Look at that RAM usage! Only 1.2GB idle vs 8GB on WSL</i></p>
+<p align="center"><i>Ram & CPU utlization (better than WSL :D)</i></p>
 
 ## Why I Quit Windows + WSL
 
@@ -44,42 +44,42 @@ Apps: Spotify, Telegram, Discord, VLC, OBS.
 
 | What | Command | Why |
 |------|---------|-----|
-| **System Update** | `sudo apt update && sudo apt upgrade` | Get latest packages |
-| **Basic Tools** | `sudo apt install build-essential git curl wget vim htop neofetch` | Essential dev tools |
+| System Update | `sudo apt update && sudo apt upgrade` | Get latest packages |
+| Basic Tools | `sudo apt install build-essential git curl wget vim htop neofetch` | Essential dev tools |
 
 ### Development Tools
 
 | Tool | Install Commands | Purpose |
 |------|-----------------|---------|
-| **Docker** | `sudo apt install docker.io docker-compose`<br>`sudo usermod -aG docker $USER`<br>`sudo systemctl enable docker` | Containers |
-| **Node.js** | `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh \| bash`<br>Restart terminal<br>`nvm install --lts` | JavaScript |
-| **Python** | `curl https://pyenv.run \| bash`<br>Add to shell config<br>`pyenv install 3.11.5` | Python dev |
-| **VS Code** | `sudo snap install code --classic` | Code editor |
+| Docker | `sudo apt install docker.io docker-compose`<br>`sudo usermod -aG docker $USER`<br>`sudo systemctl enable docker` | Containers |
+| Node.js | `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh \| bash`<br>Restart terminal<br>`nvm install --lts` | JavaScript |
+| Python | `curl https://pyenv.run \| bash`<br>Add to shell config<br>`pyenv install 3.11.5` | Python dev |
+| VS Code | `sudo snap install code --classic` | Code editor |
 
 ### Terminal Setup
 
 | Option | Commands | Result |
 |--------|----------|--------|
-| **Bash + Oh My Bash** | `bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"` | Better Bash |
-| **Zsh + Oh My Zsh** | `sudo apt install zsh`<br>`chsh -s $(which zsh)`<br>`sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` | Better Zsh |
-| **Starship Prompt** | `curl -sS https://starship.rs/install.sh \| sh`<br>Add to `.bashrc` or `.zshrc` | Cool prompt |
+| Bash + Oh My Bash | `bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"` | Better Bash |
+| Zsh + Oh My Zsh | `sudo apt install zsh`<br>`chsh -s $(which zsh)`<br>`sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` | Better Zsh |
+| Starship Prompt | `curl -sS https://starship.rs/install.sh \| sh`<br>Add to `.bashrc` or `.zshrc` | Cool prompt |
 
 ### Apps Installation
 
 | Type | Command | Apps |
 |------|---------|------|
-| **Flatpak Setup** | `sudo apt install flatpak`<br>`sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo` | Enable Flatpak |
-| **Media Apps** | `flatpak install flathub com.spotify.Client`<br>`flatpak install flathub org.videolan.VLC`<br>`flatpak install flathub com.obsproject.Studio` | Spotify, VLC, OBS |
-| **Chat Apps** | `flatpak install flathub org.telegram.desktop`<br>`flatpak install flathub com.discordapp.Discord` | Telegram, Discord |
-| **Work Apps** | `sudo snap install postman`<br>`sudo snap install notion-snap-reborn`<br>`flatpak install flathub md.obsidian.Obsidian` | Postman, Notion, Obsidian |
+| Flatpak Setup | `sudo apt install flatpak`<br>`sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo` | Enable Flatpak |
+| Media Apps | `flatpak install flathub com.spotify.Client`<br>`flatpak install flathub org.videolan.VLC`<br>`flatpak install flathub com.obsproject.Studio` | Spotify, VLC, OBS |
+| Chat Apps | `flatpak install flathub org.telegram.desktop`<br>`flatpak install flathub com.discordapp.Discord` | Telegram, Discord |
+| Work Apps | `sudo snap install postman`<br>`sudo snap install notion-snap-reborn`<br>`flatpak install flathub md.obsidian.Obsidian` | Postman, Notion, Obsidian |
 
 ### CLI Tools
 
 | Tool | Install | What it does |
 |------|---------|--------------|
-| **Dev Tools** | `sudo apt install tmux postgresql-client redis-tools httpie jq ripgrep` | Terminal tools |
-| **LazyDocker** | `curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh \| bash` | Docker UI |
-| **LazySQL** | `go install github.com/jorgerojas26/lazysql@latest` | Database UI |
+| Dev Tools | `sudo apt install tmux postgresql-client redis-tools httpie jq ripgrep` | Terminal tools |
+| LazyDocker | `curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh \| bash` | Docker UI |
+| LazySQL | `go install github.com/jorgerojas26/lazysql@latest` | Database UI |
 
 ## Speed Difference
 
