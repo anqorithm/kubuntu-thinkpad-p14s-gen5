@@ -16,6 +16,9 @@ This is my dev setup. I code every day on this. Used to use Windows + WSL. Now I
 ![System Resource Monitor](./assets/3.png)
 <p align="center"><i>Ram & CPU utlization (better than WSL :D)</i></p>
 
+![KDE System Monitor](./assets/5.png)
+<p align="center"><i>KDE System Monitor - tracking CPU, memory, and network usage</i></p>
+
 ## Why I Quit Windows + WSL
 
 I used WSL since version 1. Stuck with it for years. Even had a laptop with 32GB RAM and fast CPU. Didn't matter. WSL still sucked.
