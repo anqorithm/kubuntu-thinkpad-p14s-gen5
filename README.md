@@ -4,6 +4,23 @@ I switched from Windows + WSL to Kubuntu and never looked back. This is my daily
 
 If you're tired of WSL being slow and buggy, this guide shows you exactly how to set up a proper Linux dev environment that just works.
 
+## Table of Contents
+
+- [My Setup in Action](#my-setup-in-action)
+- [How to Install Kubuntu](#how-to-install-kubuntu)
+- [Why I Quit Windows + WSL](#why-i-quit-windows--wsl)
+- [Why Kubuntu is Better](#why-kubuntu-is-better)
+- [What I Use](#what-i-use)
+- [How to Set Everything Up](#how-to-set-everything-up)
+  - [Quick Install Guide](#quick-install-guide)
+  - [Development Tools](#development-tools)
+  - [Terminal Setup](#terminal-setup)
+  - [Apps Installation](#apps-installation)
+  - [CLI Tools](#cli-tools)
+- [Speed Difference](#speed-difference)
+- [Helpful Links](#helpful-links)
+- [My Advice](#my-advice)
+
 ## My Setup in Action
 
 ![Kubuntu Desktop Overview](./assets/4.png)
