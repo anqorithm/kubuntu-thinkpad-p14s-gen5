@@ -1,6 +1,8 @@
 # My Kubuntu Setup - ThinkPad P14s Gen 5
 
-This is my dev setup. I code every day on this. Used to use Windows + WSL. Now I use Kubuntu. Much better.
+I switched from Windows + WSL to Kubuntu and never looked back. This is my daily coding machine - fast, reliable, and actually works. No more waiting 2 minutes for npm install or dealing with broken file watching. Just pure productivity on Linux.
+
+If you're tired of WSL being slow and buggy, this guide shows you exactly how to set up a proper Linux dev environment that just works.
 
 ## My Setup in Action
 
@@ -18,6 +20,12 @@ This is my dev setup. I code every day on this. Used to use Windows + WSL. Now I
 
 ![KDE System Monitor](./assets/5.png)
 <p align="center"><i>KDE System Monitor - tracking CPU, memory, and network usage</i></p>
+
+## How to Install Kubuntu
+
+Download the ISO from [kubuntu.org](https://kubuntu.org/getkubuntu/), flash it to a USB with [Rufus](https://rufus.ie/), boot from USB, and install. Takes 20 minutes. [Here's a video guide](https://hive.blog/linux/@ribalinux/how-to-install-kubuntu-24-04-lts) if you need help.
+
+Try it in live mode first. If you like it, install it. If not, just restart.
 
 ## Why I Quit Windows + WSL
 
@@ -57,6 +65,7 @@ Apps: Spotify, Telegram, Discord, VLC, OBS.
 | Docker | `sudo apt install docker.io docker-compose`<br>`sudo usermod -aG docker $USER`<br>`sudo systemctl enable docker` | Containers |
 | Node.js | `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh \| bash`<br>Restart terminal<br>`nvm install --lts` | JavaScript |
 | Python | `curl https://pyenv.run \| bash`<br>Add to shell config<br>`pyenv install 3.11.5` | Python dev |
+| Java | `sudo apt install openjdk-17-jdk`<br>`java -version` | Java dev |
 | VS Code | `sudo snap install code --classic` | Code editor |
 
 ### Terminal Setup
