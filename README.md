@@ -1,6 +1,6 @@
 # My Kubuntu Setup - ThinkPad P14s Gen 5
 
-I switched from Windows + WSL to Kubuntu and never looked back. This is my daily coding machine - fast, reliable, and actually works. No more waiting 2 minutes for npm install or dealing with broken file watching. Just pure productivity on Linux.
+I switched from Windows + WSL to Kubuntu and never looked back. This is my daily coding machine fast, reliable, and actually works. No more waiting 2 minutes for npm install or dealing with broken file watching. Just pure productivity on Linux.
 
 If you're tired of WSL being slow and buggy, this guide shows you exactly how to set up a proper Linux dev environment that just works.
 
